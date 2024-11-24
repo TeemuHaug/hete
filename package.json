@@ -5,13 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-<<<<<<< HEAD
     "test": "nyc mocha --reporter mochawesome --recursive --require @babel/register",
     "test-coverage": "nyc npm test && nyc report --reporter=text-lcov"
-=======
-    "test": "mocha -- recursive --require @babel/register",
-    "test-coverage": "nyc npm test && nyc report --reporter=lcov"
->>>>>>> 0cf999231c15368fa2486c1883c1afb27f670e79
   },
   "author": "",
   "license": "MIT",
