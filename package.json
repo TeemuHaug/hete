@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha --recursive",
-    "test-coverage": "c8 npm test && nyc report --reporter=text-lcov | coveralls"
+    "test-coverage": "c8 npm test && nyc report --reporter=text-lcov"
   },
   "author": "",
   "license": "MIT",
