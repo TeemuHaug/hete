@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-11-24T12:37:44.290Z",
-    "end": "2024-11-24T12:37:44.295Z",
-    "duration": 5,
+    "start": "2024-11-24T12:50:08.358Z",
+    "end": "2024-11-24T12:50:08.364Z",
+    "duration": 6,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d5b0055b-6504-4ccf-ad20-5bc73a06ea5d",
+      "uuid": "b2ca5ec1-bf5e-4861-b1bb-2cd02f4e62c5",
       "title": "",
       "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\test.js",
       "file": "\\test\\test.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "676b2331-708c-4605-aa18-50ef7b05dda5",
+          "uuid": "091e18b6-2b00-4691-afe1-74b69440b4ca",
           "title": "Array",
           "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\test.js",
           "file": "\\test\\test.js",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "0e9ec436-8b06-4f51-8b93-406a90858a4f",
+              "uuid": "d7547812-9b89-4a8a-8111-6b5deaba2687",
               "title": "#indexOf()",
               "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\test.js",
               "file": "\\test\\test.js",
@@ -56,15 +56,15 @@
                   "context": null,
                   "code": "assert.equal(add(1,1), 2);",
                   "err": {},
-                  "uuid": "0a39524f-f571-4e7a-8404-74d896cf7806",
-                  "parentUUID": "0e9ec436-8b06-4f51-8b93-406a90858a4f",
+                  "uuid": "180a9ff7-2884-4f4f-9295-e50f9a21d758",
+                  "parentUUID": "d7547812-9b89-4a8a-8111-6b5deaba2687",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "0a39524f-f571-4e7a-8404-74d896cf7806"
+                "180a9ff7-2884-4f4f-9295-e50f9a21d758"
               ],
               "failures": [],
               "pending": [],
