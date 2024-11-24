@@ -10,7 +10,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "chai": "^5.1.2",
+    "chai": "^5.1.2"
+  },
+  "devDependencies": {
     "mochawesome": "^7.1.3"
   }
 }
