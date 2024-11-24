@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nyc mocha --reporter mochawesome --recursive --require @babel/register",
+    "test": "nyc mocha --reporter mochawesome --recursive",
     "test-coverage": "nyc npm test && nyc report --reporter=text-lcov"
   },
   "author": "",
