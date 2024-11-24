@@ -5,8 +5,8 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-11-24T12:22:43.527Z",
-    "end": "2024-11-24T12:22:43.532Z",
+    "start": "2024-11-24T12:37:44.290Z",
+    "end": "2024-11-24T12:37:44.295Z",
     "duration": 5,
     "testsRegistered": 1,
     "passPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "20904576-1377-48ca-be29-e4fdb86c0ee8",
+      "uuid": "d5b0055b-6504-4ccf-ad20-5bc73a06ea5d",
       "title": "",
       "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\test.js",
       "file": "\\test\\test.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c419099e-6700-4704-a7c6-3ee7d65fe3cc",
+          "uuid": "676b2331-708c-4605-aa18-50ef7b05dda5",
           "title": "Array",
           "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\test.js",
           "file": "\\test\\test.js",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "0eff27c5-c6c1-44c5-833d-c58557295b74",
+              "uuid": "0e9ec436-8b06-4f51-8b93-406a90858a4f",
               "title": "#indexOf()",
               "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\test.js",
               "file": "\\test\\test.js",
@@ -44,8 +44,8 @@
               "afterHooks": [],
               "tests": [
                 {
-                  "title": "should return -1 when the value is not present",
-                  "fullTitle": "Array #indexOf() should return -1 when the value is not present",
+                  "title": "should return 2 when adding 1 and 1",
+                  "fullTitle": "Array #indexOf() should return 2 when adding 1 and 1",
                   "timedOut": false,
                   "duration": 0,
                   "state": "passed",
@@ -54,17 +54,17 @@
                   "fail": false,
                   "pending": false,
                   "context": null,
-                  "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
+                  "code": "assert.equal(add(1,1), 2);",
                   "err": {},
-                  "uuid": "62d65089-dacb-4281-9929-483f120d7367",
-                  "parentUUID": "0eff27c5-c6c1-44c5-833d-c58557295b74",
+                  "uuid": "0a39524f-f571-4e7a-8404-74d896cf7806",
+                  "parentUUID": "0e9ec436-8b06-4f51-8b93-406a90858a4f",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "62d65089-dacb-4281-9929-483f120d7367"
+                "0a39524f-f571-4e7a-8404-74d896cf7806"
               ],
               "failures": [],
               "pending": [],
