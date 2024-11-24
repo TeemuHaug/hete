@@ -1,6 +1,6 @@
 {
-  "reporter": ["text", "lcov"],
+  "reporter": ["text", "lcov", "text-summary"],
   "all": true,
-  "include": ["test"],
-  "exclude": ["node_modules", "**/.internal/*"]
+  "include": ["src"],
+  "exclude": ["node_modules", "**/.internal/*", "**/src/isSymbol.*"]
 }

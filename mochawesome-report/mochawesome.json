@@ -1,14 +1,14 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 1,
-    "passes": 1,
+    "suites": 8,
+    "tests": 4,
+    "passes": 4,
     "pending": 0,
     "failures": 0,
-    "start": "2024-11-24T12:50:08.358Z",
-    "end": "2024-11-24T12:50:08.364Z",
-    "duration": 6,
-    "testsRegistered": 1,
+    "start": "2024-11-24T13:45:40.108Z",
+    "end": "2024-11-24T13:45:40.119Z",
+    "duration": 11,
+    "testsRegistered": 4,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,28 +18,28 @@
   },
   "results": [
     {
-      "uuid": "b2ca5ec1-bf5e-4861-b1bb-2cd02f4e62c5",
+      "uuid": "ce02a56f-f421-47d1-a146-fefde197c1e1",
       "title": "",
-      "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\test.js",
-      "file": "\\test\\test.js",
+      "fullFile": "",
+      "file": "",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "091e18b6-2b00-4691-afe1-74b69440b4ca",
+          "uuid": "4b1f643e-7073-47c6-865b-18f508bded4a",
           "title": "Array",
-          "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\test.js",
-          "file": "\\test\\test.js",
+          "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\add.test.js",
+          "file": "\\test\\add.test.js",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [],
           "suites": [
             {
-              "uuid": "d7547812-9b89-4a8a-8111-6b5deaba2687",
+              "uuid": "51b01441-5a95-4345-9f01-cb39620d1efe",
               "title": "#indexOf()",
-              "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\test.js",
-              "file": "\\test\\test.js",
+              "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\add.test.js",
+              "file": "\\test\\add.test.js",
               "beforeHooks": [],
               "afterHooks": [],
               "tests": [
@@ -47,7 +47,7 @@
                   "title": "should return 2 when adding 1 and 1",
                   "fullTitle": "Array #indexOf() should return 2 when adding 1 and 1",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -56,15 +56,189 @@
                   "context": null,
                   "code": "assert.equal(add(1,1), 2);",
                   "err": {},
-                  "uuid": "180a9ff7-2884-4f4f-9295-e50f9a21d758",
-                  "parentUUID": "d7547812-9b89-4a8a-8111-6b5deaba2687",
+                  "uuid": "d1f4b327-2b7e-4d1c-8008-360ad8486c6f",
+                  "parentUUID": "51b01441-5a95-4345-9f01-cb39620d1efe",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "180a9ff7-2884-4f4f-9295-e50f9a21d758"
+                "d1f4b327-2b7e-4d1c-8008-360ad8486c6f"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "9cf85d96-f14c-4e8d-b3f5-c3a257670e94",
+          "title": "Array",
+          "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\add.test.js",
+          "file": "\\test\\add.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "a28848b4-8129-4b1e-9a4e-306cca92be4f",
+              "title": "#indexOf()",
+              "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\add.test.js",
+              "file": "\\test\\add.test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return 12 when adding 5 and 7",
+                  "fullTitle": "Array #indexOf() should return 12 when adding 5 and 7",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(add(5,7), 12);",
+                  "err": {},
+                  "uuid": "bbe86bc5-9233-42dc-b503-80f8f5450474",
+                  "parentUUID": "a28848b4-8129-4b1e-9a4e-306cca92be4f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "bbe86bc5-9233-42dc-b503-80f8f5450474"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "bdd749a6-da6c-4a45-b62e-c06e7e599dbb",
+          "title": "Array",
+          "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\add.test.js",
+          "file": "\\test\\add.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "8cf92182-dcd2-4390-bfc9-b3bac8ae646d",
+              "title": "#indexOf()",
+              "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\add.test.js",
+              "file": "\\test\\add.test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return #1 when adding # and 1",
+                  "fullTitle": "Array #indexOf() should return #1 when adding # and 1",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(add('#', 1), '#1');",
+                  "err": {},
+                  "uuid": "3077da11-b6ca-46e6-abe2-942505abe104",
+                  "parentUUID": "8cf92182-dcd2-4390-bfc9-b3bac8ae646d",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "3077da11-b6ca-46e6-abe2-942505abe104"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "6ce20ce4-72df-401d-9916-4a6babd3ffcc",
+          "title": "Array",
+          "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\add.test.js",
+          "file": "\\test\\add.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "d64c1b7c-8592-4241-bbb3-afcecbf2a3c4",
+              "title": "#indexOf()",
+              "fullFile": "C:\\0_Lipasto\\00-2024s-2025k\\P1\\SoftTest\\Project\\hete\\test\\add.test.js",
+              "file": "\\test\\add.test.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return 0 when adding -1 and 1",
+                  "fullTitle": "Array #indexOf() should return 0 when adding -1 and 1",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert.equal(add(-1, 1), 0);",
+                  "err": {},
+                  "uuid": "a4714c61-c7bc-4e08-867b-fcdf6ecf1f06",
+                  "parentUUID": "d64c1b7c-8592-4241-bbb3-afcecbf2a3c4",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "a4714c61-c7bc-4e08-867b-fcdf6ecf1f06"
               ],
               "failures": [],
               "pending": [],
