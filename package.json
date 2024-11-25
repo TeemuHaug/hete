@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "mocha --recursive",
-    "test-coverage": "c8 npm test && c8 report --reporter=text-lcov"
+    "test-coverage": "c8 npm test && c8 report --reporter=text-lcov",
+    "debug": "c8 npm test  && c8 report --reporter=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
